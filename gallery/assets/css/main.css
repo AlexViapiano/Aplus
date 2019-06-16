@@ -1537,7 +1537,7 @@ input, select, textarea {
 					}
 
 						#header nav > ul > li a.icon:before {
-							color: #505051;
+							color: white;
 							float: right;
 							margin-left: 0.75em;
 						}
