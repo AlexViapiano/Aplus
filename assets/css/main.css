@@ -1013,7 +1013,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #EA0622;
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px #ffffff;
@@ -1366,6 +1366,8 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					background-color: #45479C;
+    				opacity: 0.8;
 				}
 
 					#header nav ul li a:hover {
@@ -1556,7 +1558,9 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-				opacity: 1;
+				opacity:0.8;
+				background-color:#45479C; 
+
 			}
 
 			#main article .close {
@@ -1638,7 +1642,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
+			font-size: 0.8rem;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
@@ -1665,7 +1669,7 @@ input, select, textarea {
 #qoute {
 	margin-top: 0rem;
 	margin-bottom: 0rem;
-	background-color: #ae0001;
+	background-color: #EA0622;
 	font-weight: bold;
 	border-radius: 5px;
 	padding: 10px;
@@ -1677,5 +1681,5 @@ input, select, textarea {
 }
 
 .main-logo {
-    height: 5.5rem;
+    height: 10rem;
 }
