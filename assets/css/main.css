@@ -1361,7 +1361,7 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.0rem 0 2.0rem;
+					padding: 0 1.0rem 0 1.0rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1681,5 +1681,13 @@ input, select, textarea {
 }
 
 .main-logo {
-    height: 13rem;
+	height: 13rem;
+}
+
+@media screen and (max-width: 480px) {
+
+	.main-logo {
+		height: 9rem;
+	}
+
 }
